@@ -1,0 +1,13 @@
+# Proprietary License
+
+Copyright (c) 2025 Hayloft Advisors LLC
+
+Permission is hereby granted to Hayloft Advisors LLC ("Licensee") to use, copy, modify, and distribute this software for commercial and non-commercial purposes, subject to the following conditions:
+
+1. This software may only be used by Hayloft Advisors LLC. No other party is permitted to use, copy, modify, distribute, sublicense, or otherwise exploit this software in any form.
+
+2. This software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+
+3. This software may incorporate or depend on third-party components, including but not limited to Node.js and Fastify, which are governed by their respective licenses. This license does not grant permission to use such third-party components except as permitted by their respective licenses.
+
+All rights not expressly granted herein are reserved by Hayloft Advisors LLC.

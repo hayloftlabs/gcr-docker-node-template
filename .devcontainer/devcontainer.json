@@ -1,0 +1,21 @@
+{
+  "name": "vsc-gcr-docker-node-dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "npm install",
+  "mounts": [],
+  "remoteUser": "root"
+}

@@ -1,0 +1,54 @@
+# GCR Secrets:
+gcr-key.json
+
+# Environment files
+.env
+*.Renv
+.venv/
+renv/
+renv.lock
+.env.gcr.yml
+.env.deploy
+
+# macOS files
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+~*
+
+# Node modules (if you ever use JS tools)
+node_modules/
+
+# Compiled binary artifacts
+*.o
+*.so
+*.exe
+*.out
+
+# Docker-related
+*.pid
+*.tar
+
+# Data and output directories
+/data/raw/
+!/data/raw/raw_data.md
+/data/processed/
+!/data/processed/processed_data.md
+/output/
+
+# Coverage and test reports
+coverage/
+*.lcov
+
+# Misc
+*.sqlite
+*.db
+*.lock
