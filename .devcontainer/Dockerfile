@@ -9,5 +9,8 @@ RUN apt-get update && apt-get install -y \
     sudo \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
+# Upgrade npm to 11.5.1
+RUN npm install -g npm@11.5.1
+
 # Set working directory
 WORKDIR /workspace
