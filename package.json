@@ -4,7 +4,20 @@
     "dotenv": "^17.2.0",
     "fastify": "^5.4.0"
   },
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "jest",
+    "test:unit:watch": "jest --watch",
+    "test:vitest": "vitest run",
+    "test:e2e": "playwright test",
+    "test:e2e:report": "playwright show-report",
+    "test:a11y": "pa11y --config tests/a11y/pa11y.config.cjs"
+  },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "@playwright/test": "^1.57.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.10",
+    "pa11y": "^9.0.1",
+    "vitest": "^4.0.16"
   }
 }
